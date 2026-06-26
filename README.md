@@ -25,3 +25,25 @@ Enter a public IP address:
 	
 This tool only provides approximate IP geolocation.
 It does not reveal exact addresses.
+
+# DNS Locator Tool 🌐
+
+	--A simple Python tool that retrieves public DNS information such as --
+- Domain
+- IP
+
+	## Installation ##
+
+Python 3 required.
+
+Run:
+
+python dns_tool.py
+
+	## Usage ##
+
+Enter a public DNS:
+
+	<IP>, <IP2>
+
+	
