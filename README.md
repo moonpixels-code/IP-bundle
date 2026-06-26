@@ -44,6 +44,5 @@ python dns_tool.py
 
 Enter a public DNS:
 
-	<IP>, <IP2>
-
+	<websitename>.co<country>
 	
