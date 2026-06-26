@@ -44,5 +44,5 @@ python dns_tool.py
 
 Enter a public DNS:
 
-	<websitename>.co<country>
+	<websitename>.co.(us)/(uk)<country>
 	
