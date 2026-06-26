@@ -233,3 +233,222 @@ See the LICENSE file for details.
 
 Made with 🐍 Python and ☕ curiosity.
 
+# 🔐 Hash Generator
+
+A lightweight Python tool that generates cryptographic hashes for text using multiple algorithms.
+
+Perfect for learning Python, cybersecurity fundamentals, and integrity verification.
+
+---
+
+## ✨ Features
+
+- MD5
+- SHA-1
+- SHA-224
+- SHA-256
+- SHA-384
+- SHA-512
+- Colored terminal output
+- ASCII banner
+- JSON report export
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/Hash-Generator.git
+```
+
+Enter the directory:
+
+```bash
+cd Hash-Generator
+```
+
+Install requirements:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Usage
+
+Run:
+
+```bash
+python3 hash_generator.py
+```
+
+Example:
+
+```
+Enter text to hash:
+
+OpenAI
+```
+
+Output:
+
+```
+=== Hash Results ===
+
+MD5:
+0523b13262b12c215d8009938f5c14f1
+
+SHA256:
+8b7d1a31...
+```
+
+A report will also be saved as:
+
+```
+report.json
+```
+
+---
+
+## Project Structure
+
+```
+Hash-Generator/
+│
+├── hash_generator.py
+├── report.json
+├── README.md
+├── requirements.txt
+├── LICENSE
+└── .gitignore
+```
+
+---
+
+## Requirements
+
+- Python 3.10+
+- colorama
+
+---
+
+## Disclaimer
+
+This tool generates hashes only.
+
+It does **not** crack, reverse, or decrypt password hashes.
+
+Use responsibly.
+
+---
+
+## License
+
+MIT License
+
+# 🌐 Network Information Tool
+
+A lightweight Python utility that displays useful information about your current network connection.
+
+Designed for learning Python, Linux networking, and cybersecurity fundamentals.
+
+---
+
+## Features
+
+- 🖥️ Hostname
+- 🏠 Local IP Address
+- 🌍 Public IP Address
+- 🌎 Country
+- 🏙️ City
+- 📍 Region
+- 🛰️ Approximate Coordinates
+- 🏢 ISP Information
+- 🎨 Colored Output
+- 📄 JSON Report
+- 🖥️ ASCII Banner
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/Network-Information-Tool.git
+```
+
+Enter the folder:
+
+```bash
+cd Network-Information-Tool
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Usage
+
+```bash
+python3 network_info.py
+```
+
+Example output:
+
+```
+Hostname: kali
+Local IP: 192.168.1.15
+Public IP: 105.xxx.xxx.xxx
+Country: ZA
+ISP: Example ISP
+Coordinates: -26.20,28.04
+```
+
+The program automatically creates:
+
+```
+report.json
+```
+
+---
+
+## Requirements
+
+- Python 3
+- requests
+- colorama
+
+---
+
+## Project Structure
+
+```
+Network-Information-Tool/
+
+├── network_info.py
+├── README.md
+├── report.json
+├── requirements.txt
+├── LICENSE
+└── .gitignore
+```
+
+---
+
+## Disclaimer
+
+This tool only gathers information about the computer on which it is run and publicly available information about the current internet connection. It does not scan or inspect other devices.
+
+---
+
+## License
+
+MIT License
